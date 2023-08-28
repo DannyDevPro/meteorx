@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Meteor IDE</title>
+</head>
+
+<body>
+    <ul class="layui-nav layui-bg-gray">
+        <img id="logo" style="height: 40px;"></img>
+
+        <li class="layui-nav-item">
+            <a class="layui-icon "style="font-size: 20px;" id="l10n">&#xe7ae</a>
+
+          </li>
+
+          <li class="layui-nav-item">
+            <a class="layui-icon "style="font-size: 20px;">&#xe635;</a>
+            <dl class="layui-nav-child">
+              <dd><a id="NewProj">新项目</a></dd>
+              <dd><a id="SaveLocal">保存到本地</a></dd>
+              <dd><a id="LoadLocal">从本地加载</a></dd>
+
+            </dl>
+          </li>
+
+          <li class="layui-nav-item">
+            <a class="layui-icon "style="font-size: 20px;">&#xe670;</a>
+            <dl class="layui-nav-child">
+              <dd><a id="Performance">性能监测工具</a></dd>
+              <dd><a id="LowMode">低配模式</a></dd>
+            </dl>
+          </li>
+
+          <li class="layui-nav-item">
+            <a class="layui-icon "style="font-size: 20px;">&#xe656;</a>
+            <dl class="layui-nav-child">
+              <dd><a id="pack">使用meteor-vm打包</a></dd>
+              <dd><a id="completely">解释为javascript</a></dd>
+            </dl>
+          </li>
+      </ul>
+      <div class="layui-tab" lay-filter="test-handle" lay-allowclose="true">
+        <ul class="layui-tab-title">
+          <li class="layui-this" lay-id="11">标签1</li>
+          <li lay-id="22">标签2</li>
+          <li lay-id="33">标签3</li>
+          <li lay-id="44">标签4</li>
+          <li lay-id="55">标签5</li>
+        </ul>
+        <div id="mcode">
+        </div>
+      </div>
+</body>
+
+</html>

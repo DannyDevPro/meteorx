@@ -1,0 +1,29 @@
+{
+  "name": "Metor-IDE",
+  "version": "\\",
+  "description": "3D IDE ",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@orillusion/core": "^0.6.8",
+    "@orillusion/physics": "^0.2.0",
+    "jquery": "^3.7.0",
+    "layui": "^2.8.13",
+    "mdui": "^1.0.2",
+    "monaco-editor": "^0.41.0",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "img-loader": "^4.0.0",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "scripts": {
+    "dev": " webpack-dev-server"
+  }
+}

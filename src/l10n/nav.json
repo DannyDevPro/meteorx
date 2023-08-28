@@ -1,0 +1,19 @@
+{"cn":{
+    "NewProj":"新项目",
+    "SaveLocal":"保存到本地",
+    "LoadLocal":"从本地加载",
+    "Performance":"性能监测工具",
+    "LowMode":"低配模式",
+    "pack":"使用meteor-VM打包",
+    "completely":"解释为javascript"
+},
+"eng":{
+    "NewProj":"New Project",
+    "SaveLocal":"Save to local",
+    "LoadLocal":"Load from local",
+    "Performance":"Performance tool",
+    "LowMode":"Low mode",
+    "pack":"Pack with Meteor-VM",
+    "completely":"Interpret as JavaScript"
+}
+}
